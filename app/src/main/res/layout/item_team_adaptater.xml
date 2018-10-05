@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="team"
+            type="com.example.dchikhaoui.testmvp.Model.Team"></variable>
+
+
+
+    </data>
+
+
+    <LinearLayout
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/team_img"
+            android:layout_width="60dp"
+            android:layout_height="100dp"
+            app:imageURL="@{team.strTeamBadge}" />
+
+        <TextView
+            android:id="@+id/team_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:padding="@dimen/text_player_margin"
+            android:text="@{team.strTeam}"
+            android:textColor="@color/redColor"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+</layout>

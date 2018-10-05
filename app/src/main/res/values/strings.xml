@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Test FDJ</string>
+    <string name="datedenaisance">Date de naissance : %1$s</string>
+    <string name="position">Position :  %1$s</string>
+    <string name="montant">Montant de transfert:  %1$s</string>
+    <string name="championShip_Placeholder">Saisissez votre ligue</string>
+</resources>
